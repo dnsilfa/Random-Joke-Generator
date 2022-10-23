@@ -15,7 +15,7 @@ body {
 
   display: grid;
   position: inherit;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'goergia', serif;
   /* it will center allign the items */
   align-items: center;
   align-content: center;
@@ -113,6 +113,36 @@ h3 {
   transform: scale(0.98);
   /* it will shrink while we click the button */
 }
+.btn:hover{
+  border-color:#a3d279;
+  background-color:#a3d279;
+}
+.btn{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 20px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover{
+  padding-right: 24px;
+  padding-left:8px;
+}
+
+.btn:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+  
 
 .btn:focus {
   outline: 0;
@@ -253,7 +283,7 @@ body.dark .lds-ring div {
 
 @media only screen and (max-width: 600px) {
   .container {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(241, 66, 66, 0.25);
     border-radius: 10px;
     padding: 15px 15px;
     max-width: 100%;
