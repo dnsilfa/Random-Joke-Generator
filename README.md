@@ -197,6 +197,15 @@ $ git push -u origin BranchName
 
 Finally, go to your repository in the browser and click on `compare and pull requests.
 Then add a title and description to your pull request that explains your precious effort.
+
+## How to Run
+
+1.Navigate to random-joke-generator using cd as a command in terminal. 
+``` cd Random-Joke-Generator ```
+
+2. Run command
+```start index.html ```
+
 ## Help Contributing Guides :crown:
 We love to have `articles` and `codes` in different languages and the `betterment` of existing ones.
 Please discuss it with us first by creating a new issue.
